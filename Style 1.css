@@ -1,0 +1,44 @@
+/* Крупный заголовок */
+h1 {
+    font-size: 2.5rem; /* около 40px */
+    margin-bottom: 1rem;
+}
+
+/* Менее крупный заголовок */
+h2 {
+    font-size: 2rem; /* около 38px */
+    margin-bottom: 1rem;
+}
+
+/* Самый мелкий заголовок */
+h3 {
+    font-size: 1.5rem; /* около 24px */
+    margin-bottom: 1rem;
+}
+
+/* Нумерованный список */
+ol {
+    counter-reset: item;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+ol li::before {
+    content: counters(item, ".") ": ";
+    counter-increment: item;
+}
+
+/* Полужирный текст */
+strong {
+    font-weight: bold;
+}
+
+/* Курсив */
+em {
+    font-style: italic;
+}
+
+/* Основные отступы между элементами */
+body > * + * {
+    margin-top: 1rem;
+}
