@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Стили красного текста */
 .red-text {
     color: #f00;
@@ -27,3 +28,34 @@
 .different-sizes span.size-110 { font-size: 110%; }
 .different-sizes span.size-130 { font-size: 130%; }
 .different-sizes span.size-150 { font-size: 150%; }
+=======
+/* Стили красного текста */
+.red-text {
+    color: #f00;
+}
+
+/* Стили жирного текста */
+.bold-text {
+    font-weight: bold;
+}
+
+/* Настройка стилей списков */
+.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.orange-item { color: #ffa500; }
+.green-item { color: #008000; }
+.blue-item { color: #0000ff; }
+.red-item { color: #f00; }
+
+/* Разные размеры шрифта внутри абзаца */
+.different-sizes span.size-30 { font-size: 30%; }
+.different-sizes span.size-50 { font-size: 50%; }
+.different-sizes span.size-70 { font-size: 70%; }
+.different-sizes span.size-90 { font-size: 90%; }
+.different-sizes span.size-110 { font-size: 110%; }
+.different-sizes span.size-130 { font-size: 130%; }
+.different-sizes span.size-150 { font-size: 150%; }
+>>>>>>> 30126db65ef509926eb48f4e4f6e5f4fdf5afeeb
