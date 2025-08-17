@@ -1,0 +1,22 @@
+Приветствую, дорогой наставник!
+
+Скрипты для имитации нажатия
+Имитация нажатия кнопки 'Log Info'
+document.querySelector('#log-info').click();
+
+// Имитация нажатия кнопки 'Cause 404'
+document.querySelector('#cause-404').click();
+
+Работа с Cookie
+
+- Cookie `AEC`:
+  AEC	AVh_V2jT8IZAnGQbabPTQaZP6grcKMKKbcYlThRVeP4On3Ct-MgFvIZH4g	.google.com	/	2026-01-20T06:09:48.985Z	61	✓	✓	Lax			Medium
+
+- Cookie `token_google`:
+  Этот cookie отсутствует.
+
+
+
+
+
+
